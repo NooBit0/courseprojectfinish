@@ -1,0 +1,17 @@
+﻿<Page x:Class="CourseProject.Views.UsersPages.AccountantPages.ReportsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CourseProject.Views.UsersPages.AccountantPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="380" d:DesignWidth="635"
+      Title="ReportsPage">
+
+    <Grid Background ="#FF7F7F7F">
+        <Button x:Name="RentalContractButton" Content="Rental Contract" HorizontalAlignment="Center" Height="50" Margin="215,86,220,0" VerticalAlignment="Top" Width="200" Foreground="White" FontFamily="Times New Roman" FontSize="24" Background="Orange" RenderTransformOrigin="1.287,-2.776" Click="RentalContractButton_Click"/>
+        <Button x:Name="RentalAccountingButton" Content="Rental Accounting" HorizontalAlignment="Center" Height="50" Margin="215,161,220,0" VerticalAlignment="Top" Width="200" Foreground="White" FontFamily="Times New Roman" FontSize="24" Background="Orange" Click="RentalAccountingButton_Click"/>
+        <Label Content="Reports for:" HorizontalAlignment="Center" Height="50" Margin="215,0,210.2,0" VerticalAlignment="Top" Width="210" FontFamily="Times New Roman" FontSize="30" FontStyle="Normal" HorizontalContentAlignment="Center"  Background="#00000000" Foreground="White"/>
+        <Button x:Name="StatisticsButton" Content="Statistics" HorizontalAlignment="Center" Height="50" Margin="215,234,220,0" VerticalAlignment="Top" Width="200" Foreground="White" FontFamily="Times New Roman" FontSize="24" Background="Orange" Click="StatisticsButton_Click"/>
+    </Grid>
+</Page>
